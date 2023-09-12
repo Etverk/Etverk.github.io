@@ -12,3 +12,26 @@ sections.forEach(function(section) {
     icon2.style.display = (content.style.display === "block") ? "block" : "none";
   });
 });
+
+const title = document.getElementById("section_ourservices_title_h3")
+const description = document.getElementById('service-description');
+
+document.getElementById('section_ourservices_button1').onclick = function() {
+    title.textContent = "E-Commerce"
+    description.textContent = "E-Commerce";
+};
+
+document.getElementById('section_ourservices_button2').onclick = function() {
+  title.textContent = "Agencies"
+  description.textContent = "Agencies";
+};
+
+document.getElementById('section_ourservices_button3').onclick = function() {
+  title.textContent = "Real Estate"
+  description.textContent = "Real Estate";
+};
+
+document.getElementById('section_ourservices_button4').onclick = function() {
+  title.textContent = "Consultants"
+  description.textContent = "Consultants";
+};

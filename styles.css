@@ -285,6 +285,10 @@ nav a {
     background-color: rgba(246, 241, 255, 0.05);
 }
 
+.section_ourservices_griditem_buttonwrapper {
+    all: unset;
+}
+
 .section_ourservices_griditem_svg {
     width: 32px;
     margin: 76px 0 20px 0;
@@ -310,6 +314,9 @@ nav a {
 
 .section_quote_container {
     background-color: rgb(56, 27, 117);
+    background-image: url(./footage/mesh1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 7rem 2rem 15rem 2rem;
     max-width: 72rem;
     display: block;
