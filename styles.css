@@ -32,6 +32,10 @@ header {
     margin-right: 20px;
 }
 
+.pink_color {
+    color: #EA2DD1;
+}
+
 nav {
     flex: 1;
     text-align: center;
@@ -97,12 +101,15 @@ nav a {
    font-size: 70px; 
    font-weight: 800;
    line-height: 1.1;
+   max-width: 80rem;
+   margin: 0 auto;
 }
 
 .section_mainheader_p {
     font-size: 14px;
     color: rgb(156, 163, 175);
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
+    max-width: 20rem;
 }
 
 .section_mainheader_hero_video {
@@ -122,6 +129,11 @@ nav a {
     line-height: 1.1;
     margin: 0px;
 }
+
+.section_benefits_h2 {
+    max-width: 786px;
+    margin: 0 auto;
+}
  
 .section_p {
     font-size: 14px;
@@ -132,14 +144,16 @@ nav a {
 .section_benefits_rowcontainer {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin: 80px auto 0 auto;
+    max-width: 1080px;
 }
 
 .section_benefits_row {
     text-align: center;
     margin: 0 20px;
-    padding: 1.5rem 1.2rem;
+    padding: 1.5rem 1.5rem;
     background-color: rgba(246, 241, 255, 0.05);
+    width: 320px;
 }
 
 .section_benefits_svg {
@@ -169,7 +183,12 @@ nav a {
 }
 
 .section_howitworks_svg {
+    
+}
+
+.section_howitworks_graph_image {
     margin-top: 75px;
+    max-width: 672px;
 }
 
 .section_howitworks_centercontainer {
