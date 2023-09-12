@@ -442,8 +442,8 @@ nav a {
     align-items: center;
 }
 
-.section_subscriptions_svg {
-    flex: 1;
+.section_subscriptions_png {
+    margin-right: 15px;
 }
 
 .section_subscriptions_button {
