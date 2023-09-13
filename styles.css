@@ -285,6 +285,10 @@ nav a {
     background-color: rgba(246, 241, 255, 0.05);
 }
 
+.section_ourservices_griditem:hover {
+    background-color: rgb(56, 27, 117) !important;
+}
+
 .section_ourservices_griditem_buttonwrapper {
     all: unset;
 }
@@ -309,7 +313,10 @@ nav a {
 }
 
 .section_ourservices_button {
- margin: 64px 0 24px 0;
+    margin: 64px 0 24px 0;
+    font-size: 13px;
+    background-color: rgba(229,231,235,.05);
+    padding: 3px 0;
 }
 
 .section_quote_container {
