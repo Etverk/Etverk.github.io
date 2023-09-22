@@ -280,9 +280,15 @@ nav a {
     line-height: 1.4;
 }
 
+#service-description {
+    font-size: 13px;
+    font-weight: 500;
+}
+
 .section_ourservices_griditem {
     padding: 0.2rem 0.1rem;
     background-color: rgba(246, 241, 255, 0.05);
+    cursor: pointer;
 }
 
 .section_ourservices_griditem:hover {
