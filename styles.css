@@ -203,6 +203,11 @@ nav a {
     text-align: left;
 }
 
+.smallertext {
+    font-weight: 600;
+    font-size: 15px;
+}
+
 .section_howitworks_row {
     margin: 0 7px;
     padding: 1.5rem 1.2rem;
@@ -228,6 +233,10 @@ nav a {
     margin: 12px 0 0 0;
     font-weight: 600;
     line-height: 1.4;
+}
+
+.section_ourservices {
+    margin-top: 140px;
 }
 
 .section_ourservices_h2 {
@@ -504,6 +513,28 @@ nav a {
 .section_subscriptions_h4 {
     font-size: 22px;
     margin: 0;
+}
+
+.section_subscriptions_h6 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.section_subscriptions_option1 {
+    background-color: rgb(56, 27, 117);
+}
+
+.section_subscriptions_oldprice {
+    text-decoration: line-through;
+    color: #727374;
+}
+
+.section_subscriptions_newprice {
+    color: rgb(239, 68, 68);
 }
 
 .section_subscriptions_option_ptitle1 {
