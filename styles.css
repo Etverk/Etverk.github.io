@@ -300,7 +300,7 @@ nav a {
 
 .section_ourservices_griditem_h4 {
     font-size: 16px; 
-    font-weight: 800;
+    font-weight: 600;
     margin: 0px;
 }
 
@@ -313,8 +313,8 @@ nav a {
 }
 
 .section_ourservices_button {
-    margin: 64px 0 24px 0;
-    font-size: 13px;
+    margin: 64px 16px 24px 16px;
+    font-size: 12px;
     background-color: rgba(229,231,235,.05);
     padding: 3px 0;
 }
