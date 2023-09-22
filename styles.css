@@ -242,6 +242,10 @@ nav a {
     
 }
 
+#section_ourservices_container_1 {
+    background-color: rgb(56, 27, 117);
+}
+
 .section_ourservices_left {
     flex: 1;
     
@@ -436,7 +440,7 @@ nav a {
 }
 
 .section_subscriptions {
-    margin-top: 88px;
+    margin-top: 200px;
 }
 
 .section_subscriptions_titles_container {
