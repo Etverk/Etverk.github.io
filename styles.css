@@ -731,3 +731,23 @@ nav a {
 .footer_logo {
     width: 120px;
 }
+
+.section_subscriptions_hamburger_button {
+    all: unset;
+    display: none;
+}
+
+.section_subscriptions_hamburger_image {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 1024px) {
+    .navbar_ul, .navbar_subscriptions_button {
+        display: none;
+    }
+
+    .section_subscriptions_hamburger_button {
+        display: block;
+    }
+}
