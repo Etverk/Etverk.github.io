@@ -182,7 +182,7 @@ nav a {
 }
 
 .section_benefits_button {
-    margin: 64px 0;
+    margin: 40px 0;
 }
 
 .section_howitworks {
@@ -194,6 +194,7 @@ nav a {
     margin-top: 75px;
     max-width: 672px;
     max-width: 100%;
+    width: 672px;
 }
 
 .section_howitworks_centercontainer {
@@ -239,6 +240,56 @@ nav a {
     margin: 12px 0 0 0;
     font-weight: 600;
     line-height: 1.4;
+}
+
+.slideshow {
+    display: none;
+    margin-top: 80px;
+}
+
+.slideshow_arrow_button {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 24, 39);
+    width: 46px;
+    height: 46px;
+    border: solid rgb(25, 30, 36);
+    border-width: 1px;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.slideshow_arrow_svg {
+    width: 24px;
+    height: 24px;
+}
+
+.slideshow_controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slideshow_number_1 {
+    font-size: 27px;
+}
+
+.slideshow_number_2 {
+    font-size: 16px;
+}
+
+.slideshow_number_3 {
+    font-size: 14px;
+}
+
+.slideshow_slide {
+    background-color: rgba(246, 241, 255, 0.05);
+    padding: 24px 16px;
+    margin: 20px 0;
 }
 
 .section_ourservices {
@@ -814,6 +865,14 @@ nav a {
 
     .section_subscriptions_hamburger_button {
         display: block;
+    }
+
+    .slideshow {
+        display: block;
+    } 
+
+    .section_howitworks_rowcontainer {
+        display: none;
     }
 }
 
