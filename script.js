@@ -58,19 +58,21 @@ document.getElementById('section_ourservices_button4').onclick = function() {
 
 
 
-
+// Select the button and the menu element
 const hamburgerButton = document.querySelector('.section_subscriptions_hamburger_button');
 const hamburgerMenu = document.querySelector('.hamburger_menu');
 const closeButton = document.querySelector('.section_subscriptions_hamburger_image2');
 
-// Function to show the menu
+// Function to show the menu and disable scrolling
 function showMenu() {
   hamburgerMenu.style.display = 'block';
+  document.body.style.overflow = 'hidden'; // Disable scrolling
 }
 
-// Function to hide the menu
+// Function to hide the menu and enable scrolling
 function hideMenu() {
   hamburgerMenu.style.display = 'none';
+  document.body.style.overflow = 'auto'; // Enable scrolling
 }
 
 // Add a click event listener to the button to show the menu
@@ -78,3 +80,24 @@ hamburgerButton.addEventListener('click', showMenu);
 
 // Add a click event listener to the close button to hide the menu
 closeButton.addEventListener('click', hideMenu);
+
+// Handle link clicks within the menu
+const menuLinks = document.querySelectorAll('.hamburger_menu a');
+
+menuLinks.forEach(link => {
+  link.addEventListener('click', event => {
+    // Prevent the default link behavior to allow smooth scrolling
+    event.preventDefault();
+
+    // Get the target section ID from the link's href
+    const targetId = link.getAttribute('href').substring(1);
+
+    // Scroll to the target section smoothly
+    document.getElementById(targetId).scrollIntoView({
+      behavior: 'smooth',
+    });
+
+    // Close the menu
+    hideMenu();
+  });
+});
