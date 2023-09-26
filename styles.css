@@ -26,10 +26,15 @@ header {
 }
 
 .header_logo img {
-    width: 128px; /* Adjust the width as needed */
+    width: 128px;
     height: 28px;
     height: auto;
     margin-right: 20px;
+}
+
+.hamburger_menu_logo {
+    width: 128px;
+    height: 28px;
 }
 
 .pink_color {
@@ -41,13 +46,13 @@ nav {
     text-align: center;
 }
 
-nav ul {
+nav .navbar_ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-nav li {
+nav .navbar_ul li {
     display: inline-block;
     margin-right: 3rem;
 }
@@ -737,7 +742,51 @@ nav a {
     display: none;
 }
 
-.section_subscriptions_hamburger_image {
+.section_subscriptions_hamburger_button2 {
+    all: unset;
+    margin: 0px 8px 0 0;
+}
+
+.hamburger_menu {
+    position: absolute;
+    display: none;
+    background-color: rgb(3, 2, 26);
+    width: 336px;
+    padding: 24px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto; /* You can omit this line if you want it to stretch to the left edge as well */
+    z-index: 999;
+}
+
+.hamburger_menu_grid1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger_menu_ul {
+    list-style: none;
+    padding: 24px 0;
+    margin: 0;
+}
+
+.hamburger_menu .hamburger_menu_ul li a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hamburger_menu .hamburger_menu_ul li {
+    padding: 12px 12px;
+}
+
+.hamburger_menu_line {
+    margin: 0 0 32px 0;
+    border-color: hsla(0,0%,100%,.05);
+    border-width: .5px;
+}
+
+.section_subscriptions_hamburger_image, .section_subscriptions_hamburger_image2 {
     width: 24px;
     height: 24px;
 }

@@ -55,3 +55,26 @@ document.getElementById('section_ourservices_button4').onclick = function() {
   container3.style.backgroundColor = "rgba(246, 241, 255, 0.05)";
   container4.style.backgroundColor = "rgb(56, 27, 117)";
 };
+
+
+
+
+const hamburgerButton = document.querySelector('.section_subscriptions_hamburger_button');
+const hamburgerMenu = document.querySelector('.hamburger_menu');
+const closeButton = document.querySelector('.section_subscriptions_hamburger_image2');
+
+// Function to show the menu
+function showMenu() {
+  hamburgerMenu.style.display = 'block';
+}
+
+// Function to hide the menu
+function hideMenu() {
+  hamburgerMenu.style.display = 'none';
+}
+
+// Add a click event listener to the button to show the menu
+hamburgerButton.addEventListener('click', showMenu);
+
+// Add a click event listener to the close button to hide the menu
+closeButton.addEventListener('click', hideMenu);
