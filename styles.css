@@ -94,7 +94,7 @@ nav a {
   }
 
 .section_mainheader {
-    padding: 100px 32px 118px 32px;
+    padding: 100px 32px 70px 32px;
 }
 
 .section_mainheader_h1, .section_mainheader_p {
@@ -127,7 +127,7 @@ nav a {
 
 .section_benefits {
     text-align: center;
-    padding: 112px 32px 0 32px;
+    padding: 70px 32px 0 32px;
 }
 
 .section_h2 {
@@ -193,6 +193,7 @@ nav a {
 .section_howitworks_graph_image {
     margin-top: 75px;
     max-width: 672px;
+    max-width: 100%;
 }
 
 .section_howitworks_centercontainer {
@@ -205,6 +206,7 @@ nav a {
     justify-content: center;
     margin-top: 80px;
     text-align: left;
+    max-width: 100%;
 }
 
 .smallertext {
@@ -253,7 +255,7 @@ nav a {
     flex-direction: row;
     width: 64rem;
     margin: 80px auto 0 auto;
-    
+    max-width: 100%;
 }
 
 #section_ourservices_container_1 {
@@ -382,7 +384,7 @@ nav a {
     flex-direction: row;
     width: 76rem;
     margin: 80px auto 0 auto;
-    
+    max-width: 100%;
 }
 
 .section_founder_left {
@@ -817,7 +819,33 @@ nav a {
 
 @media (max-width: 768px) {
     .section_mainheader_h1 {
-        font-size: 58px; 
+        font-size: 50px; 
+    }
+
+    .section_h2 {
+        font-size: 40px
+    }
+
+    .section_benefits_rowcontainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_benefits_row {
+        width: 100%;
+        margin: 16px 32px 16px 32px;
+        width: unset;
+    }
+}
+
+@media (max-width: 660px) {
+    .section_mainheader_h1 {
+        font-size: 40px; 
+    }
+
+    .section_h2 {
+        font-size: 30px
     }
 }
 
