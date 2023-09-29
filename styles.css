@@ -480,7 +480,7 @@ nav a {
     margin: 64px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
+    align-items: center; 
     justify-content: center;
     max-width: 114px;
 }
@@ -1061,8 +1061,12 @@ nav a {
         margin: 10px 0px;
     }
 
+    .section_subscriptions_option_button {
+        display: flex;
+    }
+
     .section_subscriptions_option_button a {
-        width: 100%;
+        width: 80%;
     }
 
     .section_faq_image {
@@ -1071,6 +1075,86 @@ nav a {
 
     .section_faq_container {
         flex-direction: column;
+    }
+
+    .section_benefits_svg {
+        margin: 26px 0 36px 0;
+    }
+
+    .section_quote_h2 {
+        font-size: 30px; 
+        font-weight: 800;
+        line-height: 1.1;
+        margin: 0;
+    }
+    
+    .section_quote_h3 {
+        font-size: 18px; 
+        font-weight: 500;
+        line-height: 1.1;
+        margin: 0;
+    }
+
+    .section_quote_container {
+        padding: 5rem 2rem 6rem 2rem;
+    }
+
+    .section_founder_box_email {
+        display: none;
+    }
+
+    .section_founder_icons_container {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        width: unset;
+    }
+
+    .section_founder_box {
+        margin-left: 0;
+    }
+
+    .section_subscriptions_titles_right {
+        display: none;
+    }
+
+    .section_subscriptions_titles_left {
+        margin-right: 0;
+    }
+
+    .section_subscriptions_option_container {
+        margin-top: 30px;
+    }
+
+    .section_faq {
+        margin-top: 80px;
+    }
+
+    .section_faq_h3 {
+        margin-bottom: 0;
+    }
+
+    .section_footer_back_link {
+        display: none;
+    }
+
+    .section_footer_left {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .section_footer_text {
+        margin: 13px 0 0 0;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .section_footer_p2 {
+        margin: 14px 0;
     }
 }
 
