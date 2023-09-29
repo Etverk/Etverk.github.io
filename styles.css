@@ -842,7 +842,7 @@ nav a {
     
 }
 
-.section_footer_container {
+.section_footer_container, .section_footer_innercontainer {
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -851,6 +851,7 @@ nav a {
     border: 0 solid #e5e7eb;
     border-color: rgba(17,24,39,.1);
     border-top-width: 1px;
+    width: 100%;
 }
 
 .section_footer_left {
@@ -1169,9 +1170,10 @@ nav a {
         justify-content: center;
     }
 
-    .section_footer_container {
+    .section_footer_container, .section_footer_innercontainer {
         display: flex;
         justify-content: center;
+        width: unset;
     }
 
     .section_footer_p2 {
