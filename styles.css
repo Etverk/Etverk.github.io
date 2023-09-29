@@ -971,6 +971,22 @@ nav a {
 
 
 @media (max-width: 1024px) {
+    .section_quote_h2 {
+        font-size: 50px;
+    }
+
+    .section_quote_h3 {
+        font-size: 36px;
+    }
+
+    .section_quote_container {
+        padding: 6rem 2rem 8rem 2rem;
+    }
+    
+    .section_founder {
+        padding: 0 64px 0 64px;
+    }
+
     .navbar_ul, .navbar_subscriptions_button {
         display: none;
     }
@@ -1105,13 +1121,13 @@ nav a {
 
     .section_founder_icons_container {
         display: flex;
-        justify-content: left;
-        align-items: left;
+        justify-content: center;
+        align-items: center;
         width: unset;
     }
 
     .section_founder_box {
-        margin-left: 0;
+        margin: 64px 0;
     }
 
     .section_subscriptions_titles_right {
@@ -1150,6 +1166,11 @@ nav a {
         display: flex;
         flex-direction: column; 
         align-items: center; 
+        justify-content: center;
+    }
+
+    .section_footer_container {
+        display: flex;
         justify-content: center;
     }
 
