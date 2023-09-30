@@ -960,6 +960,173 @@ nav a {
     height: 24px;
 }
 
+
+.integrity_policy_p {
+    font-size: 11px;
+}
+
+.integrity_policy_li {
+    font-size: 11px;
+}
+
+.blurred > *:not(#not-blurred) {
+    filter: blur(8px);
+}
+
+#not-blurred {
+    filter: unset !important;
+    -webkit-filter: unset !important;
+}
+
+
+.integrity_policy_button {
+    all: unset;
+    font-size: unset;
+    font-size: 13px;
+}
+
+.integrity_policy_button2 {
+    all: unset;
+    margin: 0px 8px 0 0;
+}
+
+.integrity_policy_logo {
+    width: 128px;
+    height: 28px;
+}
+
+.integrity_policy_container {
+    position: relative;
+}
+
+.integrity_policy_text {
+    text-align: left;
+}
+
+.integrity_policy {
+    position: absolute;
+    display: none;
+    background-color: rgb(3, 2, 26);
+    width: 40%;
+    padding: 24px;
+    right: 0;
+    bottom: 0;
+    left: auto; /* You can omit this line if you want it to stretch to the left edge as well */
+    z-index: 999;
+}
+
+.integrity_policy_grid1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.integrity_policy_ul {
+    list-style: none;
+    padding: 24px 0;
+    margin: 0;
+}
+
+.integrity_policy .integrity_policy_ul li a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.integrity_policy .integrity_policy_ul li {
+    padding: 12px 12px;
+}
+
+.integrity_policy_line {
+    margin: 0 0 32px 0;
+    border-color: hsla(0,0%,100%,.05);
+    border-width: .5px;
+}
+
+.integrity_policy_image, .integrity_policy_image2 {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.terms_and_services_p {
+    font-size: 11px;
+}
+
+.terms_and_services_li {
+    font-size: 11px;
+}
+
+.terms_and_services_button {
+    all: unset;
+    font-size: unset;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.terms_and_services_button2 {
+    all: unset;
+    margin: 0px 8px 0 0;
+}
+
+.terms_and_services_logo {
+    width: 128px;
+    height: 28px;
+}
+
+.terms_and_services_container {
+    position: relative;
+}
+
+.terms_and_services_text {
+    text-align: left;
+}
+
+.terms_and_services {
+    position: absolute;
+    display: none;
+    background-color: rgb(3, 2, 26);
+    width: 40%;
+    padding: 24px;
+    right: 0;
+    bottom: 0;
+    left: auto; /* You can omit this line if you want it to stretch to the left edge as well */
+    z-index: 999;
+}
+
+.terms_and_services_grid1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms_and_services_ul {
+    list-style: none;
+    padding: 24px 0;
+    margin: 0;
+}
+
+.terms_and_services .terms_and_services_ul li a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.terms_and_services .terms_and_services_ul li {
+    padding: 12px 12px;
+}
+
+.terms_and_services_line {
+    margin: 0 0 32px 0;
+    border-color: hsla(0,0%,100%,.05);
+    border-width: .5px;
+}
+
+.terms_and_services_image, .terms_and_services_image2 {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
 @media (max-width: 1400px) {
     .section_smallerservices {
         display: block;
@@ -993,6 +1160,10 @@ nav a {
     }
 
     .section_subscriptions_hamburger_button {
+        display: block;
+    }
+
+    .terms_and_services_button {
         display: block;
     }
 
@@ -1043,6 +1214,14 @@ nav a {
 
     .section_subscriptions_titles_right {
         margin-left: 80px;
+    }
+
+    .terms_and_services_button {
+        margin: 6px 0 0 0;
+    }
+
+    .terms_and_services, .integrity_policy {
+        width: 70%;
     }
 }
 
@@ -1192,7 +1371,7 @@ nav a {
 }
 
 @media (max-width: 430px) {
-    .hamburger_menu {
+    .hamburger_menu, .integrity_policy {
         width: calc(100% - 48px);
     }
 }

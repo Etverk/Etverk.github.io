@@ -169,3 +169,90 @@ sections.forEach(function(section) {
   });
 });
 
+
+
+
+
+
+
+
+
+
+
+
+// Select the button and the menu element
+const integrityButton = document.querySelector('.integrity_policy_button');
+const integrityMenu = document.querySelector('.integrity_policy');
+const integrityCloseButton = document.querySelector('.integrity_policy_image2');
+
+// Select the button and the menu element
+const termsAndServicesButton = document.querySelector('.terms_and_services_button');
+const termsAndServicesMenu = document.querySelector('.terms_and_services');
+const termsAndServicesCloseButton = document.querySelector('.terms_and_services_image2');
+
+
+// Function to show the menu and disable scrolling
+function integrityShowMenu() {
+  var integrityComputedStyle = window.getComputedStyle(integrityMenu).display;
+  var termsAndServicesComputedStyle = window.getComputedStyle(termsAndServicesMenu).display;
+  if (integrityComputedStyle === 'none' && termsAndServicesComputedStyle === 'none') { 
+    integrityMenu.style.display = 'block';
+    //document.body.style.overflow = 'hidden'; // Disable scrolling
+    document.body.classList.toggle('blurred');
+  }
+
+  if (integrityComputedStyle === 'block') {
+    integrityHideMenu()
+  }
+}
+
+// Function to hide the menu and enable scrolling
+function integrityHideMenu() {
+  integrityMenu.style.display = 'none';
+  document.body.style.overflow = 'auto'; // Enable scrolling
+  document.body.classList.toggle('blurred');
+}
+
+// Add a click event listener to the button to show the menu
+integrityButton.addEventListener('click', integrityShowMenu);
+
+// Add a click event listener to the close button to hide the menu
+integrityCloseButton.addEventListener('click', integrityHideMenu);
+
+
+
+
+
+
+
+
+
+
+
+// Function to show the menu and disable scrolling
+function termsAndServicesShowMenu() {
+  var integrityComputedStyle = window.getComputedStyle(integrityMenu).display;
+  var termsAndServicesComputedStyle = window.getComputedStyle(termsAndServicesMenu).display;
+  if (integrityComputedStyle === 'none' && termsAndServicesComputedStyle === 'none') { 
+    termsAndServicesMenu.style.display = 'block';
+    //document.body.style.overflow = 'hidden'; // Disable scrolling
+    document.body.classList.toggle('blurred');
+  }
+
+  if (termsAndServicesComputedStyle === 'block') {
+    termsAndServicesHideMenu()
+  }
+}
+
+// Function to hide the menu and enable scrolling
+function termsAndServicesHideMenu() {
+  termsAndServicesMenu.style.display = 'none';
+  document.body.style.overflow = 'auto'; // Enable scrolling
+  document.body.classList.toggle('blurred');
+}
+
+// Add a click event listener to the button to show the menu
+termsAndServicesButton.addEventListener('click', termsAndServicesShowMenu);
+
+// Add a click event listener to the close button to hide the menu
+termsAndServicesCloseButton.addEventListener('click', termsAndServicesHideMenu);
