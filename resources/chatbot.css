@@ -1,3 +1,27 @@
-.vfrc-message, .vfrc-message--chat {
-    color: purple !important;
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&family=Work+Sans:wght@100;200;300;400;500&display=swap');
+
+.vfrc-header--title {
+    font-family: 'Afacad', sans-serif;
+}
+
+.vfrc-assistant-info--title {
+    font-family: 'Afacad', sans-serif;
+}
+
+.vfrc-assistant-info--description {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.vfrc-chat--session-time {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.vfrc-message {
+    color: black;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.vfrc-chat-input {
+    font-family: 'Work Sans', sans-serif;
 }
