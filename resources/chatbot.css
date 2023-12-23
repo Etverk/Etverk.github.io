@@ -62,10 +62,12 @@
     font-family: 'Work Sans', sans-serif !important;
     background-color: black !important;
     color: white;
+    vertical-align: middle;
 }
 
 .vfrc-chat-input textarea::placeholder {
     color: white;
+    vertical-align: middle;
 }
 
 .vfrc-button {
@@ -86,16 +88,20 @@
 
 ::-webkit-input-placeholder {
     color:white;
+    vertical-align: middle;
 }
 
 ::-moz-placeholder {
     color:white;
+    vertical-align: middle;
 }
 
 ::-ms-placeholder {
     color:white;
+    vertical-align: middle;
 }
 
 ::placeholder {
     color:white;
+    vertical-align: middle;
 }
