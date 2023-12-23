@@ -1378,3 +1378,8 @@ nav a {
         width: calc(100% - 48px);
     }
 }
+
+
+.vfrc-message, .vfrc-message--chat {
+    color: red !important;
+}
