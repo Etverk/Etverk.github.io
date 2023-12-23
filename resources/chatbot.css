@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&family=Work+Sans:wght@100;200;300;400;500&display=swap');
 
+.vfrc-launcher {
+    background-color: rgb(20, 110, 245);
+}
+
+.vfrc-chat  {
+    background-color: #080808;
+}
+
+.vfrc-header {
+    background-color: rgb(20, 110, 245);
+}
+
 .vfrc-header--title {
     font-family: 'Afacad', sans-serif;
 }
 
 .vfrc-assistant-info--title {
     font-family: 'Afacad', sans-serif;
+    color: white;
 }
 
 .vfrc-assistant-info--description {
@@ -16,12 +29,26 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.vfrc-message {
-    color: black;
+.vfrc-system-response {
+    color: white;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.vfrc-system-response .vfrc-message {
+    background-color: rgb(20, 110, 245);
+}
+
+.vfrc-user-response {
+    color: white;
     text-align: left;
     font-family: 'Work Sans', sans-serif;
 }
 
 .vfrc-chat-input textarea {
     font-family: 'Work Sans', sans-serif !important;
+}
+
+.vfrc-button {
+    background-color: rgb(20, 110, 245);
 }
