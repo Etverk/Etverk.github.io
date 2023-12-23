@@ -55,9 +55,30 @@
 }
 
 .vfrc-chat-input textarea::placeholder {
-    color: white;
+    color: red;
 }
 
 .vfrc-button {
     background-color: rgb(20, 110, 245);
+}
+
+
+
+
+
+
+::-webkit-input-placeholder {
+    color:red;
+}
+
+::-moz-placeholder {
+    color:red;
+}
+
+::-ms-placeholder {
+    color:red;
+}
+
+::placeholder {
+    color:red;
 }
