@@ -4,6 +4,10 @@
     background-color: rgb(20, 110, 245);
 }
 
+.vfrc-widget--chat {
+    box-shadow: none;
+}
+
 .vfrc-chat  {
     background-color: #080808;
 }
