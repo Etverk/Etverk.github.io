@@ -42,11 +42,15 @@
 
 .vfrc-system-response .vfrc-message {
     background-color: rgb(20, 110, 245);
-}b
+}
 
-.vfrc-user-response {
+.vfrc-user-response, .vfrc-user-response .vfrc-user-response--row .vfrc-message {
     color: white;
     text-align: left;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.vfrc-message {
     font-family: 'Work Sans', sans-serif;
 }
 
