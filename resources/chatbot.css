@@ -55,7 +55,7 @@
 }
 
 .vfrc-chat-input textarea::placeholder {
-    color: red;
+    color: white;
 }
 
 .vfrc-button {
@@ -63,22 +63,20 @@
 }
 
 
-
-
-
+/* Other */
 
 ::-webkit-input-placeholder {
-    color:red;
+    color:white;
 }
 
 ::-moz-placeholder {
-    color:red;
+    color:white;
 }
 
 ::-ms-placeholder {
-    color:red;
+    color:white;
 }
 
 ::placeholder {
-    color:red;
+    color:white;
 }
