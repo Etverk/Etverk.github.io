@@ -16,6 +16,10 @@
     font-family: 'Afacad', sans-serif;
 }
 
+.vfrc-avatar {
+    border: none;
+}
+
 .vfrc-assistant-info--title {
     font-family: 'Afacad', sans-serif;
     color: white;
@@ -29,7 +33,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.vfrc-system-response {
+.vfrc-system-response div p {
     color: white;
     text-align: left;
     font-family: 'Work Sans', sans-serif;
@@ -37,7 +41,7 @@
 
 .vfrc-system-response .vfrc-message {
     background-color: rgb(20, 110, 245);
-}
+}b
 
 .vfrc-user-response {
     color: white;
@@ -46,7 +50,8 @@
 }
 
 .vfrc-chat-input textarea {
-    font-family: 'Work Sans', sans-serif !important;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(20, 110, 245);
 }
 
 .vfrc-button {
