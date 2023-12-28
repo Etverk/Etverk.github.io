@@ -22,6 +22,7 @@
 
 .vfrc-avatar {
     border: none;
+    box-shadow: none;
 }
 
 .vfrc-assistant-info--title {
@@ -39,7 +40,7 @@
 }
 
 .vfrc-system-response div p {
-    color: black;
+    color: white;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
