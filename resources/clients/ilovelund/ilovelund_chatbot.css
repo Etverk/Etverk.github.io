@@ -46,13 +46,14 @@
 }
 
 .vfrc-system-response .vfrc-message {
-    background-color: rgb(227, 5, 20);
+    background-color: rgb(244, 244, 244);
 }
 
 .vfrc-user-response, .vfrc-user-response .vfrc-user-response--row .vfrc-message {
-    color: black;
+    color: white;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(227, 5, 20);
 }
 
 .vfrc-message {
@@ -71,7 +72,7 @@
 
 .vfrc-button {
     background-color: rgb(227, 5, 20);
-    color: black;
+    color: white;
 }
 
 .vfrc-prompt button:nth-of-type(2) {
