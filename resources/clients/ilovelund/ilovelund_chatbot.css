@@ -9,7 +9,7 @@
 }
 
 .vfrc-chat  {
-    background-color: #080808;
+    background-color: white;
 }
 
 .vfrc-header {
@@ -26,7 +26,7 @@
 
 .vfrc-assistant-info--title {
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: black;
 }
 
 .vfrc-assistant-info--description {
@@ -39,7 +39,7 @@
 }
 
 .vfrc-system-response div p {
-    color: white;
+    color: black;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
@@ -49,7 +49,59 @@
 }
 
 .vfrc-user-response, .vfrc-user-response .vfrc-user-response--row .vfrc-message {
-    color: white;
+    color: black;
+}
+
+.vfrc-launcher {
+    background-color: rgb(227, 5, 20);
+}
+
+.vfrc-widget--chat {
+    box-shadow: none;
+}
+
+.vfrc-chat  {
+    background-color: white;
+}
+
+.vfrc-header {
+    background-color: rgb(227, 5, 20);
+}
+
+.vfrc-header--title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vfrc-avatar {
+    border: none;
+}
+
+.vfrc-assistant-info--title {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.vfrc-assistant-info--description {
+    font-family: 'Open Sans', sans-serif;
+    display: none;
+}
+
+.vfrc-chat--session-time {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vfrc-system-response div p {
+    color: black;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vfrc-system-response .vfrc-message {
+    background-color: rgb(227, 5, 20);
+}
+
+.vfrc-user-response, .vfrc-user-response .vfrc-user-response--row .vfrc-message {
+    color: black;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
@@ -60,17 +112,17 @@
 
 .vfrc-chat-input textarea, .vfrc-chat-input--button, .vfrc-chat-input input {
     font-family: 'Open Sans', sans-serif;
-    background-color: black !important;
-    color: white;
+    background-color: white !important;
+    color: black;
 }
 
 .vfrc-chat-input textarea::placeholder {
-    color: white;
+    color: black;
 }
 
 .vfrc-button {
     background-color: rgb(227, 5, 20);
-    color: white;
+    color: black;
 }
 
 .vfrc-prompt button:nth-of-type(2) {
@@ -78,24 +130,73 @@
 }
 
 .vfrc-chat .vfrc-prompt {
-    background-color: black;
+    background-color: white;
 }
 
 
 /* Other */
 
 ::-webkit-input-placeholder {
-    color:white;
+    color:black;
 }
 
 ::-moz-placeholder {
-    color:white;
+    color:black;
 }
 
 ::-ms-placeholder {
-    color:white;
+    color:black;
 }
 
 ::placeholder {
-    color:white;
+    color:black;
+};
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vfrc-message {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vfrc-chat-input textarea, .vfrc-chat-input--button, .vfrc-chat-input input {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white !important;
+    color: black;
+}
+
+.vfrc-chat-input textarea::placeholder {
+    color: black;
+}
+
+.vfrc-button {
+    background-color: rgb(227, 5, 20);
+    color: black;
+}
+
+.vfrc-prompt button:nth-of-type(2) {
+    background-color: transparent;
+}
+
+.vfrc-chat .vfrc-prompt {
+    background-color: white;
+}
+
+
+/* Other */
+
+::-webkit-input-placeholder {
+    color:black;
+}
+
+::-moz-placeholder {
+    color:black;
+}
+
+::-ms-placeholder {
+    color:black;
+}
+
+::placeholder {
+    color:black;
 }
