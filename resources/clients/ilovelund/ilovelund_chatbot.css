@@ -40,14 +40,13 @@
 }
 
 .vfrc-system-response div p {
-    color: white;
+    color: black;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
 
 .vfrc-system-response .vfrc-message {
     background-color: rgb(244, 244, 244);
-    color: black;
 }
 
 .vfrc-user-response, .vfrc-user-response .vfrc-user-response--row .vfrc-message {
