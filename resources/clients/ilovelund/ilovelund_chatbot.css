@@ -4,6 +4,10 @@
     background-color: rgb(227, 5, 20);
 }
 
+.vfrc-launcher:hover {
+    background-color: rgb(5, 6, 128);
+}
+
 .vfrc-widget--chat {
     box-shadow: none;
 }
@@ -77,6 +81,10 @@
 .vfrc-button {
     background-color: rgb(227, 5, 20);
     color: white;
+}
+
+vrfc-button:hover {
+    background-color: rgb(5, 6, 128);
 }
 
 .vfrc-prompt button:nth-of-type(2) {
