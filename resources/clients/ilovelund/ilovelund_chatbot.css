@@ -53,12 +53,16 @@
     color: white;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
+}
+
+.vfrc-user-response .vfrc-user-response--row .vfrc-message {
     background-color: rgb(227, 5, 20);
 }
 
 .vfrc-message {
     font-family: 'Open Sans', sans-serif;
 }
+
 
 .vfrc-chat-input textarea, .vfrc-chat-input--button, .vfrc-chat-input input {
     font-family: 'Open Sans', sans-serif;
@@ -77,6 +81,7 @@
 
 .vfrc-prompt button:nth-of-type(2) {
     background-color: transparent;
+    color: black;
 }
 
 .vfrc-chat .vfrc-prompt {
