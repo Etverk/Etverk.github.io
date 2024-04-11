@@ -2115,4 +2115,8 @@ nav a {
         justify-content: center;
     }
 
+    .section_main_features {
+        margin-top: 500px;
+    }
+
 }
