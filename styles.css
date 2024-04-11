@@ -2119,4 +2119,15 @@ nav a {
         margin-top: 500px;
     }
 
+    .section_white {
+        margin-top: 80px;
+    }
+
+    .section_get_started_content {
+        padding-top: 80px;
+    }
+
+    .section_main_feature_p {
+        margin-bottom: 0px;
+    }
 }
