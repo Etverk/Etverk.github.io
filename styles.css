@@ -116,8 +116,11 @@ nav .navbar_ul li a {
 
 .chatbot_demo_container {
     position: absolute;
-    top: 350px;
+    top: 700px;
     z-index: 1;
+    width: 100%; 
+    display: flex; 
+    margin: 0 auto;
 }
 
 nav li:last-child {
@@ -775,7 +778,7 @@ nav a {
 }
 
 .section_faq_video {
-    width: 752px;
+    max-width: 752px;
 }
 
 .section_faq_dropdown_container {
@@ -1237,6 +1240,7 @@ nav a {
 
 .section_main_features {
     margin: 800px auto 0 auto;
+    padding: 0 70px;
 }
 
 .section_main_features_headertext {
@@ -1337,7 +1341,7 @@ nav a {
 }
 
 .section_multi_display {
-    padding: 150px 0 0 0;
+    padding: 150px 70px 0 70px;
 }
 
 .section_multi_display_h1 {
@@ -1468,16 +1472,17 @@ nav a {
 
 .section_white {
     background-color: white;
-    height: 1150px;
     color: black;
     text-align: left;
     margin: 200px 0 0 0;
+    display: block;
 }
 
 .section_white_content {
     max-width: 1280px;
     padding: 160px 70px;
     margin: 0 auto;
+    display: block;
 }
 
 .section_white_h1 {
@@ -1744,12 +1749,12 @@ nav a {
 
     .section_multi_display_div {
         height: 100%;
-        width: calc(100% - 140px);
+        max-width: 100%;
         background-repeat: no-repeat;
         background-position: bottom;
     }
 
-    #section_multi_display_div_2 {
+    .section_multi_display_div_top {
         background-position: top !important;
     }
 
@@ -1764,6 +1769,18 @@ nav a {
     .multi_display_text_div {
         text-align: center;
         margin: 40px auto;
+    }
+
+    .multi_display_grid_item_video {
+        margin-bottom: 40px;
+    }
+
+    .section_mainheader_h1 {
+        font-size: 85px;
+    }
+
+    .section_mainheader_p {
+        font-size: 16px;
     }
 
 }
@@ -1901,6 +1918,43 @@ nav a {
 
     .section_footer_p2 {
         margin: 14px 0;
+    }
+
+    .section_multi_display_h1 {
+        font-size: 85px;
+    }
+
+    .section_main_feature_p {
+        font-size: 16px;
+    }
+
+    .section_get_started_grid_card_h1 {
+        font-size: 80px;
+    }
+
+    .section_get_started_grid_card {
+        margin: 0;
+    }
+
+    .section_white_grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_white_grid_card {
+        margin: 10px auto;
+    }
+
+    .section_faq_video {
+        max-width: 100%;
+    }
+
+    .chatbot_demo_container {
+        top: 600px;
+    }
+
+    .section_main_feature_h1 {
+        font-size: 70px;
     }
 }
 
