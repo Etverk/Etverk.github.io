@@ -1548,7 +1548,7 @@ nav a {
 
 
 .section_get_started {
-    height: 960px;
+    max-height: 960px;
 }
 
 .section_get_started_content {
@@ -1591,6 +1591,11 @@ nav a {
 .section_get_started_img {
     width: 100%;
     margin: 120px 0 0 0;
+}
+
+.chatbot_demo_video {
+    width: 400px; 
+    margin: 0 auto;
 }
 
 
@@ -1966,10 +1971,63 @@ nav a {
     .section_h2 {
         font-size: 30px
     }
+
+    .multi_display_grid_item_video {
+        width: 350px;
+    }
+
+    .section_get_started_grid_card_h1 {
+        font-size: 50px;
+    }
+
+    .section_get_started_grid_card_p {
+        font-size: 14px;
+    }
+
+    .section_main_feature_h1 {
+        font-size: 50px;
+    }
+
+    .section_main_feature_p {
+        font-size: 14px;
+    }
+
+    .section_case_studies_h2 {
+        font-size: 50px;
+    }
+
+    .section_boxes_h1 {
+        font-size: 70px;
+    }
+
+    .section_boxes_p {
+        font-size: 14px;
+    }
+
+    .section_white_h1 {
+        font-size: 80px;
+    }
+
+    .section_white_p {
+        font-size: 16px;
+    }
+
+    .section_multi_display_h1 {
+        font-size: 70px;
+    }
 }
 
 @media (max-width: 430px) {
     .hamburger_menu, .integrity_policy {
         width: calc(100% - 48px);
     }
+
+    .section_mainheader {
+        padding: 50px 70px;
+    }
+
+    .chatbot_demo_video {
+        width: 300px;
+    }
+
 }
