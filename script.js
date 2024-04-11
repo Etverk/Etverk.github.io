@@ -23,7 +23,7 @@ sections.forEach(function(section) {
     });
 
     section.classList.toggle("active");
-    collapsible_paragraph.style.maxHeight = (collapsible_paragraph.style.maxHeight === "200px") ? "0px" : "200px";
+    collapsible_paragraph.style.maxHeight = (collapsible_paragraph.style.maxHeight === "400px") ? "0px" : "400px";
     icon1.style.display = (icon1.style.display === "none") ? "block" : "none";
     icon2.style.display = (icon2.style.display === "block") ? "none" : "block";
     section.style.backgroundColor = (section.style.backgroundColor === "rgb(23, 23, 23)") ? "" : "rgb(23, 23, 23)";

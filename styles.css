@@ -1435,7 +1435,7 @@ nav a {
 
 .section_boxes_grid_box {
     max-width: 226px;
-    height: 352px;
+    max-height: 352px;
     padding: 32px 40px;
     margin: 0 8px 0 8px;
     text-align: left;
@@ -1507,7 +1507,7 @@ nav a {
 }
 
 .section_white_grid_card {
-    width: 335px;
+    max-width: 335px;
     height: 418px;
     padding: 24px;
     margin: 0 8px 0 8px;
@@ -2028,6 +2028,91 @@ nav a {
 
     .chatbot_demo_video {
         width: 300px;
+    }
+
+    .section_mainheader_p {
+        font-size: 14px;
+    }
+
+    .section_main_feature_h1 {
+        font-size: 40px;
+    }
+
+    .section_faq {
+        padding: 0 0px 0 0px;
+    }
+
+    .section_case_studies {
+        padding: 0 10px;
+    }
+
+    .section_case_studies_card {
+        padding: 10px 20px;
+    }
+
+    .section_boxes_grid_box {
+        padding: 10px 20px;
+    }
+
+    .section_boxes_grid_box_img {
+        max-width: 70px;
+    }
+
+    .section_boxes_grid_box_h4 {
+        margin-top: 20px;
+    }
+
+    .section_white_h1 {
+        font-size: 60px;
+    }
+
+    .section_white_content {
+        padding: 80px 20px;
+    }
+
+    .section_white_grid {
+        margin-top: 50px;
+    }
+
+    .section_get_started_grid {
+        flex-direction: column;
+    }
+
+    .section_get_started_grid_card {
+        margin-top: 20px;
+    }
+
+    .section_get_started_img {
+        margin-top: 70px;
+    }
+
+    .section_multi_display {
+        padding: 100px 20px;
+    }
+
+    .multi_display_grid_item_video {
+        width: 270px;
+    }
+
+    .announcement_bar_left_p {
+        font-size: 14px;
+    }
+
+    .announcement_bar_right_p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .announcement_bar_a {
+        flex-direction: column;
+    }
+
+    .announcement_bar {
+        max-height: 1000px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }
