@@ -57,6 +57,7 @@
 
 .vfrc-message {
     font-family: 'Work Sans', sans-serif;
+    background-color: rgb(244, 244, 244);
 }
 
 .vfrc-chat-input textarea, .vfrc-chat-input--button, .vfrc-chat-input input {
