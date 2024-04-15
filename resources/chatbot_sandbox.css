@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;600&family=Work+Sans:wght@400;600&display=swap');
 
 .vfrc-launcher {
-    background-color: #670000;
+    background-color: #006733;
 }
 
 .vfrc-widget--chat {
@@ -13,7 +13,7 @@
 }
 
 .vfrc-header {
-    background-color: #670000;
+    background-color: #006733;
 }
 
 .vfrc-header--title {
@@ -46,7 +46,7 @@
 }
 
 .vfrc-system-response .vfrc-message {
-    background-color: #670000;
+    background-color: #006733;
 }
 
 .vfrc-user-response, .vfrc-user-response .vfrc-user-response--row .vfrc-message {
